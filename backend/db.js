@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 //connection url below
-mongoose.connect('connection url');
+mongoose.connect('connectionURL/nameOfDB');
 
 const todoSchema = new mongoose.Schema({
     title: String,
